@@ -164,7 +164,7 @@ See the [open issues](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue and we'll consider your request.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue and tag with the ```enhancement``` label.
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -194,6 +194,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * [Lorenzo Ronzani](https://www.linkedin.com/in/lorenzo-ronzani-658311186/) - lorenzo.ronzani@supsi.ch
 
 Project Link: [flutter_isin_ui_kit](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit)
+
+
 Organization Link: [IsinBlockchainTeam](https://github.com/IsinBlockchainTeam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
