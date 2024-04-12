@@ -99,7 +99,9 @@ Our mission is to simplify your development workflow, allowing you to focus on i
 
 This library is built mainly using the following technologies:
 
-* [![Flutter][Flutter]][Flutter-url]
+[![Flutter][Flutter]][Flutter-url] 
+
+[![Dart][Dart]][Dart-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +138,13 @@ Follow these steps to seamlessly incorporate the Flutter UI Kit into your develo
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Once installed, the Flutter UI Kit can be easily implemented within your Flutter applications. Begin by importing the necessary components into your project. You can then customize each element to match your app’s design and functionality requirements.
+Once installed, the Flutter UI Kit can be easily implemented within your Flutter applications. Begin by importing the necessary components into your project:
+
+```dart
+import 'package:flutter_isin_ui_kit/<component>.dart';
+```
+
+You can then customize each element to match your app’s design and functionality requirements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +164,7 @@ See the [open issues](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue and we'll consider your request.
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -223,6 +231,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
 [license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
 [license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE.txt
+[Dart]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
+[Dart-url]: https://dart.dev/
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
 [Flutter-url]: https://flutter.dev/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
