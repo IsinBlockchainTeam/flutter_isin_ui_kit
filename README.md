@@ -83,7 +83,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IsinBlockchainTeam/flutter_isin_ui_kit/main/images/flutter_isin_ui_kit.gif" alt="animated" />
+  <img src="https://raw.githubusercontent.com/IsinBlockchainTeam/flutter_isin_ui_kit/main/images/flutter_isin_ui_kit.gif" alt="animated" height="500"/>
 </p>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit) -->
 
