@@ -29,23 +29,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit">
+  <a href="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">flutter-isin-ui-kit</h3>
+<h3 align="center">flutter_isin_ui_kit</h3>
 
   <p align="center">
     Streamline interface development with a versatile collection of customizable, easy-to-use Flutter UI components that enhance functionality and aesthetics.
     <br />
-    <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit">View Demo</a>
+    <a href="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit">View Demo</a>
     ·
-    <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -122,7 +122,7 @@ Follow these steps to seamlessly incorporate the Flutter UI Kit into your develo
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit.git
+   git clone https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit.git
    ```
 2. Install PUB packages
    ```sh
@@ -145,7 +145,7 @@ Once installed, the Flutter UI Kit can be easily implemented within your Flutter
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +185,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 * [Roberto Guidi](https://www.linkedin.com/in/rguidi/) - roberto.guidi@supsi.ch
 * [Lorenzo Ronzani](https://www.linkedin.com/in/lorenzo-ronzani-658311186/) - lorenzo.ronzani@supsi.ch
 
-Project Link: [Flutter-Isin-ui-kit](https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit)
+Project Link: [flutter_isin_ui_kit](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit)
 Organization Link: [IsinBlockchainTeam](https://github.com/IsinBlockchainTeam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,16 +213,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/IsinBlockchainTeam/flutter-isin-ui-kit.svg?style=for-the-badge
-[contributors-url]: https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/IsinBlockchainTeam/flutter-isin-ui-kit.svg?style=for-the-badge
-[forks-url]: https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/network/members
-[stars-shield]: https://img.shields.io/github/stars/IsinBlockchainTeam/flutter-isin-ui-kit.svg?style=for-the-badge
-[stars-url]: https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/stargazers
-[issues-shield]: https://img.shields.io/github/issues/IsinBlockchainTeam/flutter-isin-ui-kit.svg?style=for-the-badge
-[issues-url]: https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/issues
-[license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter-isin-ui-kit.svg?style=for-the-badge
-[license-url]: https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+[contributors-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+[forks-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/network/members
+[stars-shield]: https://img.shields.io/github/stars/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+[stars-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+[issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
+[license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+[license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE.txt
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
 [Flutter-url]: https://flutter.dev/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
