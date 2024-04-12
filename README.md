@@ -145,9 +145,20 @@ Follow these steps to seamlessly incorporate the Flutter UI Kit into your develo
 
 Once installed, the Flutter UI Kit can be easily implemented within your Flutter applications. Begin by importing the necessary components into your project:
 
-```dart
-import 'package:flutter_isin_ui_kit/<component>.dart';
-```
+1. Add the following statement to your `pubspec.yaml` file:
+    
+    ```yaml
+   dependencies:
+     flutter_isin_ui_kit:
+       git:
+         url: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit.git
+         ref: main
+    ```
+
+2. Import the desired component into your Dart file:
+   ```dart
+   import 'package:flutter_isin_ui_kit/<component>.dart';
+   ```
 
 You can then customize each element to match your app’s design and functionality requirements.
 
