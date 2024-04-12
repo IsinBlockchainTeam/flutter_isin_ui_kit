@@ -1,0 +1,9 @@
+*.iml
+
+.dart_tool
+.idea
+
+.flutter-plugins
+.flutter-plugins-dependencies
+
+.DS_Store
