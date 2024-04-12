@@ -82,6 +82,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<p align="center">
+  <img src="https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/images/flutter_isin_ui_kit.gif" alt="animated" />
+</p>
+<!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit) -->
+
 Welcome to the Flutter UI Kit, where we enhance the development process with a meticulously crafted set of UI components. Here’s what makes our project stand out:
 
 * Efficiency and Customization: Each component is designed for easy integration, enabling developers to add complex UI elements quickly without compromising on customizability.
@@ -233,6 +238,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
 [license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
 [license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE
+[product-screenshot]: images/flutter_isin_ui_kit.gif
 [Dart]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
 [Dart-url]: https://dart.dev/
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
