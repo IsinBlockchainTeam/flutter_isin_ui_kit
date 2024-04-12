@@ -83,7 +83,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IsinBlockchainTeam/flutter_isin_ui_kit/main/images/flutter_isin_ui_kit.gif" alt="animated" height="500"/>
+  <img src="https://raw.githubusercontent.com/IsinBlockchainTeam/flutter_isin_ui_kit/main/images/flutter_isin_ui_kit_demo.gif" alt="animated" height="500"/>
 </p>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit) -->
 
@@ -238,7 +238,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
 [license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
 [license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE
-[product-screenshot]: images/flutter_isin_ui_kit.gif
+[product-screenshot]: images/flutter_isin_ui_kit_demo.gif
 [Dart]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
 [Dart-url]: https://dart.dev/
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
