@@ -232,7 +232,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
 [issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
 [license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
-[license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE.txt
+[license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE
 [Dart]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
 [Dart-url]: https://dart.dev/
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
