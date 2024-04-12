@@ -36,7 +36,7 @@
 <h3 align="center">flutter-isin-ui-kit</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Streamline interface development with a versatile collection of customizable, easy-to-use Flutter UI components that enhance functionality and aesthetics.
     <br />
     <a href="https://github.com/IsinBlockchainTeam/flutter-isin-ui-kit"><strong>Explore the docs »</strong></a>
     <br />
