@@ -3,14 +3,20 @@ import 'package:flutter/material.dart';
 class FieldObscurable extends StatefulWidget {
   final String labelText;
   final String text;
+  final double expandedHeight;
 
-  const FieldObscurable({super.key, required this.labelText, this.text = ""});
+  const FieldObscurable(
+      {super.key,
+      required this.labelText,
+      this.expandedHeight = 130,
+      this.text = ""});
 
   @override
   State<FieldObscurable> createState() => _FieldObscurableState();
 }
 
 class _FieldObscurableState extends State<FieldObscurable> {
+  final textFieldFocusNode = FocusNode();
   bool _obscured = true;
 
   void _toggleObscured() {
@@ -22,8 +28,10 @@ class _FieldObscurableState extends State<FieldObscurable> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
+      height: _obscured ? null : widget.expandedHeight,
       child: TextFormField(
-        canRequestFocus: false,
+        // canRequestFocus: false,
+        focusNode: textFieldFocusNode,
         initialValue: widget.text,
         obscureText: _obscured,
         readOnly: true,
