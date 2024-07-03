@@ -44,42 +44,43 @@ class UIUtils {
     FocusNode focusNode = FocusNode();
 
     showDialog(
-        context: context,
-        builder: (context) {
-          WidgetsBinding.instance
-              .addPostFrameCallback((_) => focusNode.requestFocus());
+      context: context,
+      builder: (context) {
+        WidgetsBinding.instance
+            .addPostFrameCallback((_) => focusNode.requestFocus());
 
-          return AlertDialog(
-            title: Text(title),
-            contentPadding: const EdgeInsets.fromLTRB(24, 16, 0, 24),
-            content: Row(
-              children: [
-                Expanded(
-                  child: TextField(
-                    controller: textEditingController,
-                    focusNode: focusNode,
-                    decoration: InputDecoration(hintText: hint),
-                    onSubmitted: (value) {
-                      onSubmitted(value);
-                      Navigator.of(context)
-                          .pop(); // Optionally close the dialog on submit
-                    },
-                    autofocus: true,
-                  ),
-                ),
-                IconButton(
-                  onPressed: () {
-                    if (textEditingController.text.isNotEmpty) {
-                      onSubmitted(textEditingController.text);
-                      Navigator.of(context)
-                          .pop(); // Close the dialog after submission
-                    }
+        return AlertDialog(
+          title: Text(title),
+          contentPadding: const EdgeInsets.fromLTRB(24, 16, 0, 24),
+          content: Row(
+            children: [
+              Expanded(
+                child: TextField(
+                  controller: textEditingController,
+                  focusNode: focusNode,
+                  decoration: InputDecoration(hintText: hint),
+                  onSubmitted: (value) {
+                    onSubmitted(value);
+                    Navigator.of(context)
+                        .pop(); // Optionally close the dialog on submit
                   },
-                  icon: const Icon(Icons.send),
-                )
-              ],
-            ),
-          );
-        });
+                  autofocus: true,
+                ),
+              ),
+              IconButton(
+                onPressed: () {
+                  if (textEditingController.text.isNotEmpty) {
+                    onSubmitted(textEditingController.text);
+                    Navigator.of(context)
+                        .pop(); // Close the dialog after submission
+                  }
+                },
+                icon: const Icon(Icons.send),
+              )
+            ],
+          ),
+        );
+      },
+    );
   }
 }

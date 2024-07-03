@@ -3,6 +3,7 @@ import 'package:flutter_isin_ui_kit/components/clipboard_copyable_text.dart';
 import 'package:flutter_isin_ui_kit/components/confirmation_button.dart';
 import 'package:flutter_isin_ui_kit/components/field_obscurable.dart';
 import 'package:flutter_isin_ui_kit/components/input_field_obscurable.dart';
+import 'package:flutter_isin_ui_kit/components/modal_mobile_scanner.dart';
 import 'package:flutter_isin_ui_kit/utils/restart_widget.dart';
 import 'package:flutter_isin_ui_kit/utils/ui_utils.dart';
 
@@ -92,6 +93,10 @@ class _HomePageViewState extends State<HomePageView> {
                 buttonColor: Colors.green,
               ),
               const SizedBox(height: 20),
+              ModalMobileScanner(
+                onDetect: (String? value) =>
+                    print(value ?? 'No valid value detected'),
+              ),
             ],
           ),
         ),
