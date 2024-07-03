@@ -80,6 +80,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <p align="center">
@@ -87,24 +88,28 @@
 </p>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit) -->
 
-Welcome to the Flutter UI Kit, where we enhance the development process with a meticulously crafted set of UI components. Here’s what makes our project stand out:
+Welcome to the Flutter UI Kit, where we enhance the development process with a meticulously crafted set of UI
+components. Here’s what makes our project stand out:
 
-* Efficiency and Customization: Each component is designed for easy integration, enabling developers to add complex UI elements quickly without compromising on customizability.
-* Optimal Performance: We focus on ensuring that all components perform seamlessly, enhancing user experience and application speed.
-* User-Centric Design: Our toolkit is developed with a keen eye on aesthetic and functional needs, helping you create applications that are both attractive and practical.
-* Community-Driven: Contributions from developers are encouraged, helping us expand and refine the toolkit to meet evolving development needs.
+* Efficiency and Customization: Each component is designed for easy integration, enabling developers to add complex UI
+  elements quickly without compromising on customizability.
+* Optimal Performance: We focus on ensuring that all components perform seamlessly, enhancing user experience and
+  application speed.
+* User-Centric Design: Our toolkit is developed with a keen eye on aesthetic and functional needs, helping you create
+  applications that are both attractive and practical.
+* Community-Driven: Contributions from developers are encouraged, helping us expand and refine the toolkit to meet
+  evolving development needs.
 
-Our mission is to simplify your development workflow, allowing you to focus on innovating while we handle the UI complexities.
+Our mission is to simplify your development workflow, allowing you to focus on innovating while we handle the UI
+complexities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 This library is built mainly using the following technologies:
 
-[![Flutter][Flutter]][Flutter-url] 
+[![Flutter][Flutter]][Flutter-url]
 
 [![Dart][Dart]][Dart-url]
 
@@ -113,15 +118,17 @@ This library is built mainly using the following technologies:
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
-This section will guide you through the initial setup and integration of the Flutter UI Kit into your projects, ensuring a smooth start.
+This section will guide you through the initial setup and integration of the Flutter UI Kit into your projects, ensuring
+a smooth start.
 
 ### Prerequisites
 
 Before diving into the Flutter UI Kit, ensure you have the necessary environment and tools set up as listed below.
+
 * [Flutter][Flutter-installation-url]
-  
 
 ### Installation
 
@@ -141,12 +148,14 @@ Follow these steps to seamlessly incorporate the Flutter UI Kit into your develo
 
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
-Once installed, the Flutter UI Kit can be easily implemented within your Flutter applications. Begin by importing the necessary components into your project:
+Once installed, the Flutter UI Kit can be easily implemented within your Flutter applications. Begin by importing the
+necessary components into your project:
 
 1. Add the following statement to your `pubspec.yaml` file:
-    
+
     ```yaml
    dependencies:
      flutter_isin_ui_kit:
@@ -160,6 +169,22 @@ Once installed, the Flutter UI Kit can be easily implemented within your Flutter
    import 'package:flutter_isin_ui_kit/<component>.dart';
    ```
 
+> Note: If you want to use the mobile scanner, you need to add the following permissions to your configuration files:
+
+1. For Android, add the following permissions to your [`AndroidManifest.xml`](./example/android/app/src) files:
+
+```xml
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-feature android:name="android.hardware.camera"/>
+```
+
+2. For iOS, add the following permissions to your [`Info.plist`](./example/ios/Runner/Info.plist) file:
+
+```xml
+<key>NSCameraUsageDescription</key>
+<string>Camera permission is required for scanning QR codes.</string>
+```
+
 You can then customize each element to match your app’s design and functionality requirements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -167,20 +192,25 @@ You can then customize each element to match your app’s design and functionali
 
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-See the [open issues](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues) for a full list of proposed
+features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue and tag with the ```enhancement``` label.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue and tag with the ```enhancement``` label.
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -194,6 +224,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -203,6 +234,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
+
 ## Contact
 
 * [Giuliano Gremlich](https://www.linkedin.com/in/giuliano-gremlich-265018153/) - giuliano.gremlich@supsi.ch
@@ -211,7 +243,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Project Link: [flutter_isin_ui_kit](https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit)
 
-
 Organization Link: [IsinBlockchainTeam](https://github.com/IsinBlockchainTeam)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -219,9 +250,11 @@ Organization Link: [IsinBlockchainTeam](https://github.com/IsinBlockchainTeam)
 
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites
+to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -239,35 +272,67 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+
 [forks-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+
 [stars-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+
 [issues-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/issues
+
 [license-shield]: https://img.shields.io/github/license/IsinBlockchainTeam/flutter_isin_ui_kit.svg?style=for-the-badge
+
 [license-url]: https://github.com/IsinBlockchainTeam/flutter_isin_ui_kit/blob/master/LICENSE
+
 [product-screenshot]: images/flutter_isin_ui_kit_demo.gif
+
 [Dart]: https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
+
 [Dart-url]: https://dart.dev/
+
 [Flutter]: https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
+
 [Flutter-url]: https://flutter.dev/
+
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
 [Next-url]: https://nextjs.org/
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+
 [React-url]: https://reactjs.org/
+
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+
 [Vue-url]: https://vuejs.org/
+
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+
 [Angular-url]: https://angular.io/
+
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+
 [Svelte-url]: https://svelte.dev/
+
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+
 [Laravel-url]: https://laravel.com
+
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+
 [Bootstrap-url]: https://getbootstrap.com
+
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+
 [JQuery-url]: https://jquery.com
+
 [Flutter-installation-url]: https://docs.flutter.dev/get-started/install
