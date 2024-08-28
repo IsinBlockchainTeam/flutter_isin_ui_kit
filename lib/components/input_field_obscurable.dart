@@ -6,7 +6,8 @@ class InputFieldObscurable extends StatefulWidget {
   final bool isEnabled;
   final String? Function(String?) validator;
   final double expandedHeight;
-  final String initialValue;
+  final String? initialValue;
+  final TextEditingController? controller;
 
   const InputFieldObscurable({
     super.key,
@@ -15,7 +16,8 @@ class InputFieldObscurable extends StatefulWidget {
     this.isEnabled = true,
     required this.validator,
     this.expandedHeight = 130,
-    this.initialValue = '',
+    this.initialValue,
+    this.controller,
   });
 
   @override
@@ -41,6 +43,7 @@ class _InputFieldObscurableState extends State<InputFieldObscurable> {
     return SizedBox(
       height: _obscured ? null : widget.expandedHeight,
       child: TextFormField(
+        controller: widget.controller,
         initialValue: widget.initialValue,
         keyboardType: TextInputType.visiblePassword,
         obscureText: _obscured,
