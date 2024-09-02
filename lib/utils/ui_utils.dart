@@ -14,7 +14,7 @@ class UIUtils {
     );
   }
 
-  static showCustomDialog(String text, BuildContext context) {
+  static showLoadingDialog(String text, BuildContext context) {
     showDialog(
         barrierDismissible: false,
         context: context,
@@ -82,5 +82,37 @@ class UIUtils {
         );
       },
     );
+  }
+
+  static showConfirmDialog(
+      BuildContext context,
+      String title,
+      String content,
+      String okText,
+      String cancelText,
+      Function(BuildContext) onConfirmedAction) {
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+              title: Text(title),
+              content: Text(content),
+              actions: <Widget>[
+                TextButton(
+                  style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      backgroundColor: Colors.red),
+                  onPressed: () {
+                    Navigator.of(context).pop(true);
+                    onConfirmedAction(context);
+                  },
+                  child: Text(okText),
+                ),
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(true),
+                  child: Text(cancelText),
+                ),
+              ]);
+        });
   }
 }

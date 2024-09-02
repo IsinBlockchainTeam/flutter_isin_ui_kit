@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_isin_ui_kit/utils/ui_utils.dart';
 
 class ConfirmationButton extends StatelessWidget {
   final String buttonText;
@@ -21,37 +22,12 @@ class ConfirmationButton extends StatelessWidget {
       this.buttonFontWeight = FontWeight.normal,
       this.buttonColor = Colors.red});
 
-  showConfirmDialog(BuildContext context) {
-    showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-              title: Text(alertTitle),
-              content: Text(alertContent),
-              actions: <Widget>[
-                TextButton(
-                  style: TextButton.styleFrom(
-                      foregroundColor: Colors.white,
-                      backgroundColor: Colors.red),
-                  onPressed: () {
-                    Navigator.of(context).pop(true);
-                    onConfirmedAction(context);
-                  },
-                  child: Text(alertConfirmation),
-                ),
-                TextButton(
-                  onPressed: () => Navigator.of(context).pop(true),
-                  child: Text(alertCancel),
-                ),
-              ]);
-        });
-  }
-
   @override
   Widget build(BuildContext context) {
     return FilledButton(
       onPressed: () {
-        showConfirmDialog(context);
+        UIUtils.showConfirmDialog(context, alertTitle, alertContent,
+            alertConfirmation, alertCancel, onConfirmedAction);
       },
       style: FilledButton.styleFrom(backgroundColor: buttonColor),
       child: Text(
