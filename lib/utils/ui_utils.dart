@@ -19,9 +19,9 @@ class UIUtils {
         barrierDismissible: false,
         context: context,
         builder: (_) {
-          return Dialog(
+          return AlertDialog(
             backgroundColor: Colors.white,
-            child: Padding(
+            content: Padding(
               padding: const EdgeInsets.symmetric(vertical: 50),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -90,7 +90,8 @@ class UIUtils {
       String content,
       String okText,
       String cancelText,
-      Function(BuildContext) onConfirmedAction) {
+      Function(BuildContext) onConfirmedAction,
+      {Color okColor = Colors.red}) {
     showDialog(
         context: context,
         builder: (BuildContext context) {
@@ -100,8 +101,7 @@ class UIUtils {
               actions: <Widget>[
                 TextButton(
                   style: TextButton.styleFrom(
-                      foregroundColor: Colors.white,
-                      backgroundColor: Colors.red),
+                      foregroundColor: Colors.white, backgroundColor: okColor),
                   onPressed: () {
                     Navigator.of(context).pop(true);
                     onConfirmedAction(context);
