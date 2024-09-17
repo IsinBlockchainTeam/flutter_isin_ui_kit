@@ -3,20 +3,32 @@ import 'package:mobile_scanner/mobile_scanner.dart';
 
 class ModalMobileScanner extends StatefulWidget {
   final Function(String?) onDetect;
+  final Widget? buttonLabel;
+  final Color? backgroundColor;
 
-  const ModalMobileScanner({super.key, required this.onDetect});
+  const ModalMobileScanner(
+      {super.key,
+      required this.onDetect,
+      this.buttonLabel,
+      this.backgroundColor});
 
   @override
   State<ModalMobileScanner> createState() => _ModalMobileScannerState();
 }
 
 class _ModalMobileScannerState extends State<ModalMobileScanner> {
+  Widget cameraLabelOn = const Icon(Icons.camera_alt);
+
   bool cameraStarted = false;
   late MobileScannerController mobileScannerController;
 
   @override
   void initState() {
     super.initState();
+
+    if (widget.buttonLabel != null) {
+      cameraLabelOn = widget.buttonLabel!;
+    }
 
     mobileScannerController = MobileScannerController(
         detectionSpeed: DetectionSpeed.noDuplicates, autoStart: false);
@@ -88,11 +100,11 @@ class _ModalMobileScannerState extends State<ModalMobileScanner> {
     return Visibility(
       visible: true,
       child: FloatingActionButton(
+        backgroundColor: !cameraStarted ? widget.backgroundColor : null,
         onPressed: () => toggleCamera(context),
         tooltip: 'Start/stop camera',
-        child: !cameraStarted
-            ? const Icon(Icons.camera_alt)
-            : const Icon(Icons.no_photography),
+        child:
+            !cameraStarted ? cameraLabelOn : const Icon(Icons.no_photography),
       ),
     );
   }
