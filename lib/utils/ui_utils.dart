@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:qr_flutter/qr_flutter.dart';
 
 class UIUtils {
   static void showToast(BuildContext context, String text,
@@ -114,5 +117,31 @@ class UIUtils {
                 ),
               ]);
         });
+  }
+
+  static Widget buildQrDialogFromJson(Map<String, dynamic> json) {
+    return Dialog(
+      child: SizedBox(
+          child: QrImageView(
+        data: jsonEncode(json),
+        version: QrVersions.auto,
+        backgroundColor: Colors.white,
+      )),
+    );
+  }
+
+  static Widget buildAsyncComponent(Future future, Function buildChild) {
+    return FutureBuilder(
+      future: future,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState != ConnectionState.done) {
+          return Container();
+        }
+
+        final result = snapshot.data;
+
+        return buildChild(result);
+      },
+    );
   }
 }
