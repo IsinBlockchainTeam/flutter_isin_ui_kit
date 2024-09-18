@@ -7,6 +7,7 @@ class InputFieldObscurable extends StatefulWidget {
   final String? Function(String?) validator;
   final String? initialValue;
   final TextEditingController? controller;
+  final Color? iconColor;
 
   const InputFieldObscurable({
     super.key,
@@ -16,6 +17,7 @@ class InputFieldObscurable extends StatefulWidget {
     required this.validator,
     this.initialValue,
     this.controller,
+    this.iconColor,
   });
 
   @override
@@ -67,6 +69,7 @@ class _InputFieldObscurableState extends State<InputFieldObscurable> {
                     ? Icons.visibility_outlined
                     : Icons.visibility_off_outlined,
                 size: 24,
+                color: widget.iconColor,
               ),
             ),
           ),

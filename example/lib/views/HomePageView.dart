@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_isin_ui_kit/components/confirmation_button.dart';
 import 'package:flutter_isin_ui_kit/components/fields/clipboard_copyable_field.dart';
 import 'package:flutter_isin_ui_kit/components/fields/field_obscurable.dart';
-import 'package:flutter_isin_ui_kit/components/input_field_obscurable.dart';
+import 'package:flutter_isin_ui_kit/components/fields/input_field_obscurable.dart';
 import 'package:flutter_isin_ui_kit/components/modal_mobile_scanner.dart';
 import 'package:flutter_isin_ui_kit/utils/restart_widget.dart';
 import 'package:flutter_isin_ui_kit/utils/ui_utils.dart';
