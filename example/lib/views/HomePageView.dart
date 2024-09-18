@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_isin_ui_kit/components/clipboard_copyable_text.dart';
 import 'package:flutter_isin_ui_kit/components/confirmation_button.dart';
-import 'package:flutter_isin_ui_kit/components/field_obscurable.dart';
+import 'package:flutter_isin_ui_kit/components/fields/clipboard_copyable_field.dart';
+import 'package:flutter_isin_ui_kit/components/fields/field_obscurable.dart';
 import 'package:flutter_isin_ui_kit/components/input_field_obscurable.dart';
 import 'package:flutter_isin_ui_kit/components/modal_mobile_scanner.dart';
 import 'package:flutter_isin_ui_kit/utils/restart_widget.dart';
@@ -36,9 +36,10 @@ class _HomePageViewState extends State<HomePageView> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              ClipboardCopyableText(
-                text: text,
-                textLabel: 'Clipboard Copyable Text',
+              ClipboardCopyableField(
+                label: 'Label',
+                value: text,
+                labelColor: Colors.black,
               ),
               const SizedBox(height: 20),
               Form(

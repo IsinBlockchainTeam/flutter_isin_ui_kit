@@ -58,16 +58,18 @@ class _InputFieldObscurableState extends State<InputFieldObscurable> {
           labelText: widget.labelText,
           isDense: true,
           // Reduces height a bit
-          border: const OutlineInputBorder(),
-          prefixIcon: const Icon(Icons.lock_rounded, size: 24),
+          border: const OutlineInputBorder(
+            borderRadius: BorderRadius.all(Radius.circular(10)),
+          ),
+          prefixIcon: const Icon(Icons.lock_outline_rounded, size: 24),
           suffixIcon: Padding(
             padding: const EdgeInsets.fromLTRB(0, 0, 4, 0),
             child: GestureDetector(
               onTap: _toggleObscured,
               child: Icon(
                 _obscured
-                    ? Icons.visibility_rounded
-                    : Icons.visibility_off_rounded,
+                    ? Icons.visibility_outlined
+                    : Icons.visibility_off_outlined,
                 size: 24,
               ),
             ),
